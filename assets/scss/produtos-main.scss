@@ -1,0 +1,25 @@
+main {
+  .produtos-tipos {
+    margin-top: 10px;
+    h2 {
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: bold;
+      color: $cor-primaria;
+    }
+    .card {
+      margin-bottom: 20px;
+      background-color: rgb(255, 204, 204);
+      img {
+        height: 250px;
+      }
+      .card-body {
+        height: 200px;
+        h5 {
+          font-weight: bold;
+          color: $cor-primaria;
+        }
+      }
+    }
+  }
+}

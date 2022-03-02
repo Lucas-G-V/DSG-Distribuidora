@@ -1,0 +1,38 @@
+//cor para o titulo principal
+#frios-titulo {
+  color: $cor-primaria;
+}
+//cor para o paragrafo e alinhamento abaixo do titulo principal
+#frios-paragrafo {
+  font-size: 20px;
+  text-align: justify;
+}
+//garantir que os cards tenham o mesmo tamanho e seja responsivo
+.frios {
+  height: 100%;
+  margin: 20px 5px;
+  align-items: center;
+  // posicionar os cards
+  .frios-container {
+    border: 30px;
+    border-color: $cor-primaria;
+    border-width: 10px;
+    .frios-itens {
+      color: $preto;
+      //padronizar o tamanho da imagem
+      img {
+        height: 250px;
+      }
+      h5 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+      }
+      strong,
+      h5 {
+        color: $cor-primaria;
+      }
+    }
+  }
+}

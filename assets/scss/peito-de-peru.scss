@@ -1,0 +1,12 @@
+.peito-de-peru {
+  font-size: 20px;
+  color: black;
+  .peito-de-peru-conteudo {
+    h1 {
+      color: $cor-primaria;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}

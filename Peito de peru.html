@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet" >
+
+    <title>Dsg-Produtos-Frios</title>
+    
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <!--Nav-->
+      <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-danger nav-home">
+        <!--Container navegação-->
+        <section class="container d-flex align-items-center">
+          <!--Criação da linha da navegação-->
+          
+            <!--Logo-->
+            <div class="col-md-6">
+              <a class="navbar-brand text-light" href="#">DSG Distribuidora</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <!--End Logo-->
+            <!--Navegação site-links-->
+            <section class="col-md-6 d-flex justify-content-start nav collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light  text-decoration-underline active" href="./Produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light " href="#">Receitas</a>
+                  </li>
+                  
+                </ul>
+            </section>
+            <!--End Navegação site links-->
+          
+          
+          <!--End Criação da linha da navegação-->
+        </section>
+        <!--End Container navegação-->  
+      </nav>
+      <!--End Nav-->
+      <!--Breadcrumb-->
+      <article class="container" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./Produtos.html">Produtos</a></li>
+          <li class="breadcrumb-item"><a href="./Frios.html">Frios</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Peito de peru</li>
+
+        </ol>
+      </article>
+      <!--End Breadcrumb-->
+      
+      
+    </header>
+    <!--End Header-->
+    <!--Main-->
+    <main>
+      <!--Container pagina peito de peru-->
+      <section class="container peito-de-peru">
+        <!--row que detem o conteudo da pagina -->
+        <article class="row">
+          <!--Coluna com a imagem-->
+          <figure class="col-lg-6 col-md-12 mb-3">
+            <img src="./assets/images/peito-de-peru.PNG" class = "img-fluid" alt="Camiseta manga comprida">
+          </figure>
+          <!--End Coluna com a imagem-->
+          <!--Coluna com o conteúdo justificado com direção de coluna por (between)-->
+          <section class="col-lg-6 col-md-12 mb-3 d-flex flex-column justify-content-between">
+            <!--Conteudo do texto principal da pagina-->
+            <article class="peito-de-peru-conteudo">
+              <h1>Peito de Peru</h1>
+              <p>Das receitas mais básicas aos pratos mais elaborados, eles sempre são garantia de sucesso. Produto mais saudável e de excelente qualidade para melhorar suas receitas.</p>
+            </article>
+            <!--End Conteudo do texto principal da pagina-->
+            <!--Informações da compra e entrega-->
+            <article class="peito-de-peru-preco">
+              <strong>R$59,90/kg <span class="d-block">Entrega em toda São Paulo, faça seu pedido por whatsapp</span></strong>
+            </article>
+            <!--End Informações da compra e entrega-->
+            <!--Conteúdo com cotação e pedido do cliente-->
+            <article>
+              <article>
+                <h4>Acesse nossa cotação atual com todos os nossos produtos</h4>
+                <!--Link da cotação (Excel)-->
+                <a class="btn btn-danger col-md-12" href="https://mauabr-my.sharepoint.com/:x:/g/personal/18_00626-4_maua_br/EV6SeGsaMuROg5fdHD1p87oBDsYL-tIrdg_anNMv-zmRmA">Cotação atual</a>
+                <!--Formulario para futura passagem do pedido por email-->
+                <form action="#">
+                  <div class="form-floating mb-1">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-1">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Password" required>
+                    <label for="floatingPassword">Empresa</label>
+                  </div>
+                  <div class="form-floating mb-1">
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Pedido</label>
+                  </div>
+                  <a class="btn btn-success col-md-12" href="https://api.whatsapp.com/send?phone=5511994129587&text=Quero%20fazer%20um%20pedido">Fazer pedido</a>
+  
+  
+                </form>
+                <!--End Formulario para futura passagem do pedido por email com informações do cliente-->
+              </article>
+            </article>
+            <!--End Conteúdo com cotação e pedido do cliente-->
+          </section>
+          <!--End Coluna com o conteúdo justificado com direção de coluna por (between)-->
+          <!--API para aparecer comentarios do cliente-->
+          <div class="fb-comments col-md-12 mt-2 mb-5" data-href="http://127.0.0.1:5500/e-commerce/produto-camiseta-manga-comprida.html" data-width="100%" data-numposts="5"></div>
+          <!--End API para aparecer comentarios do cliente-->
+        </article>
+        <!--row que detem o conteudo da pagina -->
+
+      </section>
+      <!--End Container pagina peito de peru-->
+      
+      
+
+      
+
+    </main>
+    <!--End Main-->
+    <!--Footer-->
+    <footer>
+      <!--Container Footer-->
+      <section class="container">
+        <!--Row Footer-->
+        <section class="row">
+          <!--Divisão das colunas Footer-->
+          <article class="col-md-4">
+            <h4>Atendimento</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="tel:+551195028677">(11) 99412 9587</a>
+              </li>
+              <li class="nav-item">
+                <a href="lucasgvettorazzo@hotmail.com">lucasgvettorazzo@hotmail.com</a>
+              </li>
+              <li class="nav-item">
+                Horário de atendimento on-line:<br> Segunda à sexta das 7:00 até as 17:00
+              </li>
+              
+            </ul>
+          </article>
+          <article class="col-md-4">
+            <h4>Acesso rápido</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="#">Minha Conta</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Meus pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Rastrear meus pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Troca e devoluções</a>
+              </li>
+            </ul>
+          </article>
+          <article class="col-md-4">
+                <h4>Institucional</h4>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a href="#">Sobre a loja</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">Politica e privacidade</a>
+                  </li>
+                </ul>
+          </article>
+          <!--End Divisão das colunas Footer-->
+          
+        </section>
+        <!--End Row Footer-->
+       
+      </section>
+      <!--End Container Footer-->
+    </footer>
+    <!--End Footer-->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="assets/js/popper.min.js" ></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <div id="fb-root"></div>
+    <!--Script do comentario do facebook-->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v13.0" nonce="aEevoQQI"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet" >
+
+    <title>DSG Distribuidora</title>
+    
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <!--Nav-->
+      <nav class="computador container-fluid navbar navbar-expand-lg navbar-light bg-danger nav-home">
+        <!--Container navegação-->
+        <section class="container d-flex align-items-center">
+          <!--Criação da linha da navegação-->
+          
+            <!--Logo-->
+            <div class="col-md-6">
+              <a class="navbar-brand text-light" href="#">DSG Distribuidora</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <!--End Logo-->
+            <!--Navegação site-links-->
+            <section class="col-md-6 d-flex justify-content-start nav collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-light " aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light text-decoration-underline active" href="#">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Receitas</a>
+                  </li>
+                </ul>
+            </section>
+            <!--End Navegação site links-->
+          <!--End Criação da linha da navegação-->
+        </section>
+        <!--End Container navegação-->  
+      </nav>
+      <!--End Nav-->
+      
+      
+    </header>
+    <!--End Header-->
+    <!--Main-->
+    <main>
+      <!--Container banner produtos-->
+      <section class="container produtos">
+        <!--Titulo produtos-->
+        <h2>NOSSOS PRODUTOS</h2>
+        <!--Slide dos banners do produto-->
+        <article id="produtos-slide" class="carousel slide" data-bs-ride="carousel">
+          <!--Elemento para trocar de imagem manualmente-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#produtos-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#produtos-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#produtos-slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <!--End Elemento para trocar de imagem manualmente-->
+          <!--Produtos no banner-->
+          <section class="carousel-inner">
+            <a href="#" class="carousel-item active">
+              <img  src="assets/images/peito-de-peru.jpg" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner1">
+              <p class="produtos-legenda">Presunto parma- Ceratti</p>
+            </a>
+            <a href="#" class="carousel-item">
+              <img  src="assets/images/presunto-parma-resolucao.png" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner2">
+              <p class="produtos-legenda">Peito de peru - Specialli</p>
+            </a>
+            <a href="#" class="carousel-item">
+              <img src="assets/images/Queijo fresco.jpg" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner3">
+              <p class="produtos-legenda">Queijo fresco - Perdigão</p>
+            </a>
+          </section>
+          <!--End Produtos no banner-->
+          <!--Botão para passar para o prox anuncio-->
+          <button class="carousel-control-prev" type="button" data-bs-target="#produtos-slide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#produtos-slide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <!--End Botão para passar para o prox anuncio-->
+        </article>
+
+      </section>
+      <!--End Container banner produtos-->
+      <!--Container card-produtos-->
+      <section class="container produtos-tipos">
+        <!--Titulo h2-->
+        <h2 class="produtos-tipos-texto">Temos uma grande variedade de produtos</h2>
+        <!--Seção com os tipos de produtos no card-Primeira linha-->
+        <article class="row d-flex align-items-start">
+          <!--Coluna com 1 card-->
+          <section class="col-md-4 d-flex justify-content-center">
+            <!--Criação do card-->
+            <article class="card" style="width: 18rem;">
+              <!--Imagem do produto-->
+              <img src="./assets/images/peito-de-peru.PNG" class="card-img-top" alt="peito de peru">
+              <section class="container-fluid card-body">
+                
+                <!--Titulo do produto-->
+                <h5 class=" h-20 d-inline-block card-title">Frios</h5>
+                <!--Texto do produto-->
+                <p class="h-50 d-inline-block card-text">Das receitas mais básicas aos pratos mais elaborados, eles sempre são garantia de sucesso.</p>
+                <!--Botão do produto-->
+                <a href="./Frios.html" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              
+              </section>
+            </article>
+            <!--End Criação do card-->
+          </section>
+          <!--End Coluna com 1 card-->
+          <!--Coluna com 2 card-->
+          <section class="col-md-4 d-flex justify-content-center align-items-center">
+            <!--Card 2-->
+            <article class="card" style="width: 18rem;">
+              <img src="./assets/images/presunto-parma.PNG" class="card-img-top" alt="presunto parma">
+              <section class="container-fluid card-body">
+                <h5 class="h-20 d-inline-block card-title">Fatiados</h5>
+                <p class="h-50 d-inline-block card-text">Fatiamos uma vasta gama de frios, com diferentes pesos e tamanhos.</p>
+                <a href="#" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              </section>
+            </article>
+            <!--End Card 2-->
+          </section>
+          <!--End Coluna com 2 card-->
+          <!--Coluna com 3 card-->
+          <section class="col-md-4 d-flex justify-content-center">
+            <!--Card 3 - Presunto Parma-->
+            <article class="card" style="width: 18rem;">
+              <img src="./assets/images/presunto-parma.PNG" class="card-img-top" alt="presunto parma">
+              <section class="container-fluid card-body">
+                <h5 class="h-20 d-inline-block card-title">Secos</h5>
+                <p class="h-50 d-inline-block card-text">Componentes de quase todas as receitas, distribuimos quase todos os tipos de secos.</p>
+                <a href="#" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              </section>
+            </article>
+            <!--End Card 3 - Presunto Parma-->
+          </section>
+          <!--Coluna com 3 card-->
+        </article>
+        <!--End Seção com os tipos de produtos no card-Primeira linha-->
+        <!--Seção com os tipos de produtos no card- Segunda linha-->
+        <article class="row">
+          <!--Coluna com o card 4 - Peito de peru-->
+          <section class="col-md-6 d-flex justify-content-center">
+            <!--Card 4 - Peito de peru-->
+            <article class="card" style="width: 18rem;">
+              <img src="./assets/images/peito-de-peru.PNG" class="card-img-top" alt="peito de peru">
+              <section class="container-fluid card-body">
+                <h5 class="h-20 d-inline-block card-title">Embutidos</h5>
+                <p class="h-50 d-inline-block card-text">Para incrementar suas receitas, oferecemos diversos tipos de condimentos, principalmente em sachê.</p>
+                <a href="#" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              </section>
+            </article>
+            <!--End Card 4 - Peito de peru-->
+          </section>
+          <!--End Coluna com o card 4 - Peito de peru-->
+          <!--Coluna com o card 5 - Peito de peru-->
+          <section class="col-md-6 d-flex justify-content-center">
+            <!--Card 5 - Peito de peru-->
+            <article class="card" style="width: 18rem;">
+              <img src="./assets/images/peito-de-peru.PNG" class="card-img-top" alt="peito de peru">
+              <section class="container-fluid card-body">
+                <h5 class="h-20 d-inline-block card-title">Bebidas</h5>
+                <p class="h-50 d-inline-block card-text">Para terminar a refeição, complementamos com muitos tipos de bebidas, como iogurtes e refrigerantes.</p>
+                <a href="#" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              </section>
+            </article>
+            <!--End Card 5 - Peito de peru-->
+          </section>
+          <!--End Coluna com o card 5 - Peito de peru-->
+        </article>
+        <!--End Seção com os tipos de produtos no card- Segunda linha-->
+        
+        
+      </section>
+      <!--End Container card-produtos-->
+
+    </main>
+    <!--End Main-->
+    
+    <!--Footer-->
+    <footer>
+      <!--Container Footer-->
+      <section class="container">
+        <!--Row Footer-->
+        <section class="row">
+          <!--Divisão das colunas Footer-->
+          <article class="col-md-4">
+            <h4>Atendimento</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="tel:+551195028677">(11) 99412 9587</a>
+              </li>
+              <li class="nav-item">
+                <a href="lucasgvettorazzo@hotmail.com">lucasgvettorazzo@hotmail.com</a>
+              </li>
+              <li class="nav-item">
+                Horário de atendimento on-line:<br> Segunda à sexta das 7:00 até as 17:00
+              </li>
+              
+            </ul>
+          </article>
+          <article class="col-md-4">
+            <h4>Acesso rápido</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="#">Minha Conta</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Meus pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Rastrear meus pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">Troca e devoluções</a>
+              </li>
+            </ul>
+          </article>
+          <article class="col-md-4">
+                <h4>Institucional</h4>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a href="#">Sobre a loja</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#">Politica e privacidade</a>
+                  </li>
+                </ul>
+          </article>
+          <!--End Divisão das colunas Footer-->
+          
+        </section>
+        <!--End Row Footer-->
+       
+      </section>
+      <!--End Container Footer-->
+    </footer>
+    <!--End Footer-->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="assets/js/popper.min.js" ></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

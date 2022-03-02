@@ -1,0 +1,28 @@
+// scss do rodapé da página
+footer {
+  //colocar background branco
+  background: $cor-primaria;
+  padding: 25px 0;
+  // Garantir que quando passe o mouse por cima a cor seja a mesma
+  a {
+    color: $branco;
+    &:hover {
+      color: $branco;
+    }
+  }
+  // Formatar o tamanho do titulo 4
+  h4 {
+    font-size: 19px;
+    color: $cor-secundaria;
+  }
+  color: $branco;
+  // Formatar as linhas e colunas do rodapé caso ultrapasse o tamanho maximo
+  ul {
+    li.ellipsis {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
