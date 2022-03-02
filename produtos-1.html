@@ -32,20 +32,17 @@
             <section class="col-md-6 d-flex justify-content-start nav collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link text-light text-decoration-underline active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-light " aria-current="page" href="./index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="./produtos-1.html">Produtos</a>
+                    <a class="nav-link text-light text-decoration-underline active" href="#">Produtos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-light" href="#">Receitas</a>
                   </li>
-                  
                 </ul>
             </section>
             <!--End Navegação site links-->
-          
-          
           <!--End Criação da linha da navegação-->
         </section>
         <!--End Container navegação-->  
@@ -57,37 +54,6 @@
     <!--End Header-->
     <!--Main-->
     <main>
-      <!--Container Home-->
-      <section class="home container">
-        <!-- row-->
-        <article class="row">
-          <!--Figura Home-->
-          <figure class="col-xl-6 col-lg-12 col-md-12">
-            <img src="./assets/images/home1.PNG" class="img-fluid img-thumbnail" alt="Imagem home">
-            
-          </figure>
-          <!--End Figura home-->
-          <!--Seção com os textos sobre a empresa-->
-          <section class="col-xl-6 col-lg-12 col-md-12 home-text-container">
-            <!--Colocando width 100%-->
-            <div class="col-md-12">
-              <h1>DSG DISTRIBUIDORA</h1>
-            </div>
-            <div class="col-md-12">
-            <p>Depois de mais de 25 anos de dedicação e experiência na área de prestação de serviço voltado ao varejo e food-service, surgiu a CG Food´s, uma empresa que une todos os segmentos do setor de perecível. A empresa foi criada para atender a um nicho de mercado diversificado onde temos duas formas de atendimento: Serviço de fatiamento e distribuição;</p><p>Nosso diferencial de atendimento e distribuição de nossos produtos, fez com que a CG Food´s, fosse cada vez mais crescendo, através da divulgação de seus próprios clientes.</p>
-
-              <p>Possuímos uma frota própria de entrega, com funcionários treinados e qualificados para melhor atendê-lo. É nessa linha que a empresa continua acreditando e direcionando seus trabalhos. Valorizando cada dia mais a opinião de seus clientes e consumidores e tendo-os como parte de seu maior patrimônio.
-              </p>
-            </div>
-
-          </section>
-          <!--End Seção com os textos sobre a empresa-->
-
-
-        </article>
-        <!-- End row-->
-      </section>
-      <!--End Container Home-->
       <!--Container banner produtos-->
       <section class="container produtos">
         <!--Titulo produtos-->
@@ -104,15 +70,15 @@
           <!--Produtos no banner-->
           <section class="carousel-inner">
             <a href="#" class="carousel-item active">
-              <img  src="assets/images/peito-de-peru.jpg" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner1-peito de peru">
+              <img  src="assets/images/peito-de-peru.jpg" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner1">
               <p class="produtos-legenda">Presunto parma- Ceratti</p>
             </a>
             <a href="#" class="carousel-item">
-              <img  src="assets/images/presunto-parma-resolucao.png" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner2-presunto parma">
+              <img  src="assets/images/presunto-parma-resolucao.png" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner2">
               <p class="produtos-legenda">Peito de peru - Specialli</p>
             </a>
             <a href="#" class="carousel-item">
-              <img src="assets/images/Queijo fresco.jpg" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner3-queijo fresco">
+              <img src="assets/images/Queijo fresco.jpg" class="img-fluid img-thumbnail d-block w-100 produtos-tamanho" alt="Banner3">
               <p class="produtos-legenda">Queijo fresco - Perdigão</p>
             </a>
           </section>
@@ -130,11 +96,103 @@
         </article>
 
       </section>
-
-      
+      <!--End Container banner produtos-->
+      <!--Container card-produtos-->
+      <section class="container produtos-tipos">
+        <!--Titulo h2-->
+        <h2 class="produtos-tipos-texto">Temos uma grande variedade de produtos</h2>
+        <!--Seção com os tipos de produtos no card-Primeira linha-->
+        <article class="row d-flex align-items-start">
+          <!--Coluna com 1 card-->
+          <section class="col-md-4 d-flex justify-content-center">
+            <!--Criação do card-->
+            <article class="card" style="width: 18rem;">
+              <!--Imagem do produto-->
+              <img src="./assets/images/peito-de-peru.PNG" class="card-img-top" alt="peito de peru">
+              <section class="container-fluid card-body">
+                
+                <!--Titulo do produto-->
+                <h5 class=" h-20 d-inline-block card-title">Frios</h5>
+                <!--Texto do produto-->
+                <p class="h-50 d-inline-block card-text">Das receitas mais básicas aos pratos mais elaborados, eles sempre são garantia de sucesso.</p>
+                <!--Botão do produto-->
+                <a href="./frios-1.html" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              
+              </section>
+            </article>
+            <!--End Criação do card-->
+          </section>
+          <!--End Coluna com 1 card-->
+          <!--Coluna com 2 card-->
+          <section class="col-md-4 d-flex justify-content-center align-items-center">
+            <!--Card 2-->
+            <article class="card" style="width: 18rem;">
+              <img src="./assets/images/presunto-parma.PNG" class="card-img-top" alt="presunto parma">
+              <section class="container-fluid card-body">
+                <h5 class="h-20 d-inline-block card-title">Fatiados</h5>
+                <p class="h-50 d-inline-block card-text">Fatiamos uma vasta gama de frios, com diferentes pesos e tamanhos.</p>
+                <a href="#" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              </section>
+            </article>
+            <!--End Card 2-->
+          </section>
+          <!--End Coluna com 2 card-->
+          <!--Coluna com 3 card-->
+          <section class="col-md-4 d-flex justify-content-center">
+            <!--Card 3 - Presunto Parma-->
+            <article class="card" style="width: 18rem;">
+              <img src="./assets/images/presunto-parma.PNG" class="card-img-top" alt="presunto parma">
+              <section class="container-fluid card-body">
+                <h5 class="h-20 d-inline-block card-title">Secos</h5>
+                <p class="h-50 d-inline-block card-text">Componentes de quase todas as receitas, distribuimos quase todos os tipos de secos.</p>
+                <a href="#" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              </section>
+            </article>
+            <!--End Card 3 - Presunto Parma-->
+          </section>
+          <!--Coluna com 3 card-->
+        </article>
+        <!--End Seção com os tipos de produtos no card-Primeira linha-->
+        <!--Seção com os tipos de produtos no card- Segunda linha-->
+        <article class="row">
+          <!--Coluna com o card 4 - Peito de peru-->
+          <section class="col-md-6 d-flex justify-content-center">
+            <!--Card 4 - Peito de peru-->
+            <article class="card" style="width: 18rem;">
+              <img src="./assets/images/peito-de-peru.PNG" class="card-img-top" alt="peito de peru">
+              <section class="container-fluid card-body">
+                <h5 class="h-20 d-inline-block card-title">Embutidos</h5>
+                <p class="h-50 d-inline-block card-text">Para incrementar suas receitas, oferecemos diversos tipos de condimentos, principalmente em sachê.</p>
+                <a href="#" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              </section>
+            </article>
+            <!--End Card 4 - Peito de peru-->
+          </section>
+          <!--End Coluna com o card 4 - Peito de peru-->
+          <!--Coluna com o card 5 - Peito de peru-->
+          <section class="col-md-6 d-flex justify-content-center">
+            <!--Card 5 - Peito de peru-->
+            <article class="card" style="width: 18rem;">
+              <img src="./assets/images/peito-de-peru.PNG" class="card-img-top" alt="peito de peru">
+              <section class="container-fluid card-body">
+                <h5 class="h-20 d-inline-block card-title">Bebidas</h5>
+                <p class="h-50 d-inline-block card-text">Para terminar a refeição, complementamos com muitos tipos de bebidas, como iogurtes e refrigerantes.</p>
+                <a href="#" class="h-20 d-inline-block btn btn-primary d-flex align-items-center">Veja mais</a>
+              </section>
+            </article>
+            <!--End Card 5 - Peito de peru-->
+          </section>
+          <!--End Coluna com o card 5 - Peito de peru-->
+        </article>
+        <!--End Seção com os tipos de produtos no card- Segunda linha-->
+        
+        
+      </section>
+      <!--End Container card-produtos-->
 
     </main>
     <!--End Main-->
+    
     <!--Footer-->
     <footer>
       <!--Container Footer-->
